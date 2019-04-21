@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  color: #666;
+  font-family: Microsoft YaHei, Helvitica, Verdana, Tohoma, Arial, san-serif;
+}
+
+p {
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.game-div {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.game-div>.game-content {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.game-content>canvas {
+  border: 3px black solid;
+}
+
+.game-div>.game-introduce {
+  width: 39%;
+  height: 100%;
+  float: left;
+}
+
+.game-introduce>.introduce-title {
+  font-size: 26px;
+  color: #DB5705;
+}
+
+.game-introduce>.introduce-content {
+  font-size: 18px;
+  color: #333;
+}
+
+.introduce-content>p {
+  font-size: 23px;
+  color: #08c;
+}
+
+.introduce-content>ul {
+  color: #1d5aa7;
+}
+
+.introduce-content>ul>li {
+  list-style-type: disc;
+  font-size: 17px;
+}

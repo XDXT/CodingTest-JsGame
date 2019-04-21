@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>keep escaping</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- 调试/配置数据 -->
+    <script src="./js/utils.js"></script>
+    <script src="./js/configImage.js"></script>
+    <script src="./js/level.js"></script>
+    <!-- game 相关文件 -->
+    <script src='./js/utils.js'></script>
+    <script src='./js/game/draw_game.js'></script>
+    <script src='./js/game/game_scene.js'></script>
+    <script src='./js/game/game_img.js'></script>
+    <script src='./js/game/game_animation.js'></script>
+    <!-- 场景文件 -->
+    <script src='./js/scene/main/bgblock.js'></script>
+    <script src='./js/scene/main/background.js'></script>
+    <script src='./js/scene/main/scene.js'></script>
+    <script src='./js/scene/main/player.js'></script>
+    <!-- 标题和结束场景 -->
+  </head>
+  <body>
+    <!-- game content -->
+    <div class="game-div">
+      <div class="game-content">
+        <canvas id="id-canvas" width="600" height="600"></canvas>
+      </div>
+
+      <div class="game-introduce">
+        <div class="introduce-title">使用说明</div>
+
+        <div class="introduce-content">
+          <br>
+          <li>move: ['w', 's', 'a', 'd']   or  ['↑', '↓', '←', '→']</li>
+          <li>tap level: ['k']</li>
+          <li>run: press ['Shirft']</li>
+
+          <br>
+          <li>这是一个代码水平测试，不保证游戏做完全。</li>
+          <li>本次以比较直观的JavaScript以游戏的形式测试。</li>
+          <li>开发环境 Chrome 70.1+</li>
+
+          <p>TODO LIST</p>
+          <ul>
+            <li>did-- 地面场景载入 by bgMap[](./js/level.js)</li>
+            <li>did-- 场景切换 => 关卡切换</li>
+            <li>did-- 人物载入 -- walk/stand 有动画</li>
+            <li>did-- 简单碰撞判定</li>
+            <li>doing-- 人物动作切换 - walk/run {attack/tap weapon}</li>
+            <li>todo-- 场景物品载入 - tree/house/...</li>
+            <li>todo-- 敌人载入</li>
+            <li>todo-- 人物属性&攻击判定  - life/attack/weapons...</li>
+            <li>todo-- 敌人AI - attack/move direction select</li>
+            <li>todo-- 关卡设计(<=3关)</li>
+            <li>todo-- 开始&结束场景</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <!-- game debug tool -->
+    <div class="game-control">
+      <button type="button" class="game-start" >start</button>
+    </div>
+    <!-- run js -->
+    <script src='js/main.js'></script>
+  </body>
+</html>
