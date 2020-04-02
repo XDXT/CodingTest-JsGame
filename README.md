@@ -2,4 +2,4 @@
   旨在通过开发小游戏来了解js
 
 ## 预览
- [keep escape](https://xdxt.github.io/study-plan-keep_eacape/fb1.html)  
+ [keep escape](https://xdxt.github.io/study-plan-keep_eacape/keep_escape.html)  
