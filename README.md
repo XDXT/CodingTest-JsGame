@@ -1,4 +1,2 @@
-# CodingTest-JsGame
-  It's just a test of my code level
-
-  这只是一个对自我的代码水平测试
+## JavaScript学习计划1-keep eacape
+  旨在通过开发小游戏来了解js
