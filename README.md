@@ -1,4 +1,4 @@
-## JavaScript学习计划1-keep eacape（已废弃）
+## ~~JavaScript学习计划1-keep eacape（已废弃）~~
   旨在通过开发小游戏来了解js
 
 ## 预览
