@@ -1,5 +1,9 @@
-## ~~JavaScript学习计划1-keep eacape（已废弃）~~
-  旨在通过开发小游戏来了解js
+## ~~keep eacape（已废弃）~~
+    逃生小游戏
 
-## 预览
- [keep escape](https://xdxt.github.io/study-plan-keep_eacape/keep_escape.html)  
+## 练习知识点
+*回调
+*匿名函数
+*canvas画图
+*定时器
+*类的封装继承多态...
